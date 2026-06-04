@@ -6,29 +6,35 @@ using System.Threading.Tasks;
 
 namespace LaboHeroesVsMonster.Class
 {
-    delegate void Pv();
+    
     public abstract class Perso
     {
         public int end { get; protected set; }
         public int forc { get; protected set; }
         public int Pv { get; set; }
         private int _pvMax;
+
         public int PvMax
         {
             get { return _pvMax; }
             protected set { _pvMax = value; }
         }
-
+        
         public int Cuir { get; set; }
         public int Or { get; set; }
+
+        public int placementX { get; set; }
+        public int placementY { get; set; }
         public Perso()
         {
            end = PointEndurance();
            forc = PointForce();
            PvMax = PointVie();
            Pv = PvMax;
-           Cuir = Cuir;
-            Or = Or;
+           Cuir = 0;
+           Or = 0;
+           placementX = PlacementX();
+           placementY = PlacementY();
 
          
            
@@ -113,12 +119,12 @@ namespace LaboHeroesVsMonster.Class
                 if (monstreActuel.Cuir > 0)
                 {
                     stockCuir = joueur.Cuir += monstreActuel.Cuir;
-                    Console.WriteLine($"Tu as récupéré {monstreActuel.Cuir}, tu en as actuellement {stockCuir} dans ton sac.");
+                    Console.WriteLine($"Tu as récupéré {monstreActuel.Cuir}, tu en as actuellement {stockCuir} de cuir dans ton sac.");
                 }
                 if (monstreActuel.Or > 0)
                 {
                     stockOr = joueur.Or += monstreActuel.Or;
-                    Console.WriteLine($"Tu as récupéré {monstreActuel.Or}, tu as actuellement {stockOr} dans ton sac.");
+                    Console.WriteLine($"Tu as récupéré {monstreActuel.Or}, tu as actuellement {stockOr} de cuir dans ton sac.");
                 }
             }
         }
@@ -141,6 +147,24 @@ namespace LaboHeroesVsMonster.Class
                 Console.WriteLine("Tu as gagné ce tour !");
 
             }
+        }
+
+        public static int PlacementX()
+        {   int n = 0;
+            do
+            {   n += 2;
+                return n;
+            } while (n < 10);
+            
+        }
+        public static int PlacementY()
+        {
+            int n = 0;
+            do
+            {
+                n += 2;
+                return n;
+            } while (n < 10);
         }
     }
 }

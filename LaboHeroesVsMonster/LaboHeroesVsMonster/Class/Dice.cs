@@ -8,8 +8,8 @@ namespace LaboHeroesVsMonster.Class
 {
     public class Dice
     {
-        public int min;
-        public int max;
+        public int min { get; }
+        public int max { get; }
         public Dice(int min, int max) 
         {
             this.min = min;

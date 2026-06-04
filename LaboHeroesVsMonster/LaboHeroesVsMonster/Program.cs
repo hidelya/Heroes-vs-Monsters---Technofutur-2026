@@ -31,6 +31,10 @@ for ( int i = 0; i < 1; i++)
     }
 }
 
+ZoneJeu zone = new ZoneJeu();
+zone.AfficherTableau();
+
+
 Utilitaires.Clear(input);
 
 Console.WriteLine("Voyons ta stat de force...");
@@ -56,7 +60,7 @@ do
     Monster monstreActuel = Monster.InitialisationMonstre();
     Console.WriteLine("Un monstre vient de spawn !");
     Console.WriteLine($"C'est un {monstreActuel.GetType().Name} il possède " +
-    $"{monstreActuel.Or} d'or, {monstreActuel.Cuir} de cuir, il a {monstreActuel.forc} de force et {monstreActuel.PvMax} de pv ");
+    $" {monstreActuel.forc} de force et {monstreActuel.PvMax} de pv ");
     Console.WriteLine("C'est l'heure de l'affronter !");
     Utilitaires.Clear(input);
     Perso.BoucleAttaque(joueur, input, monstreActuel);
