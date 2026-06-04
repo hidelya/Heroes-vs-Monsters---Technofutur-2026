@@ -1,0 +1,14 @@
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\bin\Debug\net8.0\LaboHeroesVsMonster.exe
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\bin\Debug\net8.0\LaboHeroesVsMonster.deps.json
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\bin\Debug\net8.0\LaboHeroesVsMonster.runtimeconfig.json
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\bin\Debug\net8.0\LaboHeroesVsMonster.dll
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\bin\Debug\net8.0\LaboHeroesVsMonster.pdb
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\obj\Debug\net8.0\LaboHeroesVsMonster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\obj\Debug\net8.0\LaboHeroesVsMonster.AssemblyInfoInputs.cache
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\obj\Debug\net8.0\LaboHeroesVsMonster.AssemblyInfo.cs
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\obj\Debug\net8.0\LaboHeroesVsMonster.csproj.CoreCompileInputs.cache
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\obj\Debug\net8.0\LaboHeroesVsMonster.dll
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\obj\Debug\net8.0\refint\LaboHeroesVsMonster.dll
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\obj\Debug\net8.0\LaboHeroesVsMonster.pdb
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\obj\Debug\net8.0\LaboHeroesVsMonster.genruntimeconfig.cache
+C:\Users\l.delfairiere\source\repos\LaboHeroesVsMonster\LaboHeroesVsMonster\obj\Debug\net8.0\ref\LaboHeroesVsMonster.dll
